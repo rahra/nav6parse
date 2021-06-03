@@ -19,6 +19,9 @@
  *
  * This program is an uncompressor for the TUF file which is used to update the
  * Seatec NAV6 chartplotter.
+ * Please note that the .tuf file is encoded in Litte Endian byte order. This
+ * program does not take care on the byte order thus it does only work properly
+ * if compiled and used on Little Endian machines (such as Intel).
  *
  */
 
